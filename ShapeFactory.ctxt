@@ -1,0 +1,4 @@
+#BlueJ class context
+comment0.params=shapeManager\ point
+comment0.target=Shape\ createNewShape(ShapeManager,\ Point)
+numComments=1

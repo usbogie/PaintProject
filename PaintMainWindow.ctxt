@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=
+comment0.target=PaintMainWindow()
+comment1.params=
+comment1.target=ShapeManager\ getShapeManager()
+comment2.params=
+comment2.target=PaintMenuBar\ getPainMenuBar()
+comment3.params=
+comment3.target=PaintMainPane\ getPaintMainPane()
+comment4.params=
+comment4.target=void\ go()
+numComments=5
