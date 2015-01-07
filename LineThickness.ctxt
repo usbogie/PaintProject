@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=
+comment0.target=LineThickness()
+comment1.params=thickness
+comment1.target=LineThickness(float)
+comment2.params=thickness
+comment2.target=LineThickness(LineThickness)
+comment3.params=
+comment3.target=java.awt.BasicStroke\ getStrokeInformation()
+comment4.params=
+comment4.target=float\ getLineThickness()
+numComments=5
