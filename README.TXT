@@ -7,6 +7,6 @@ all he/she needs to know. The comments should usually include at least:
 PROJECT TITLE: PaintProject
 PURPOSE OF PROJECT: To be a simplified version of the Microsoft Paint application
 VERSION or DATE:  
-HOW TO START THIS PROJECT:
-AUTHORS: Henry Bogardus/Rich Parsons
+HOW TO START THIS PROJECT: Import all the java files into your environment of choice, and then run it as a java application
+AUTHORS: Henry Bogardus
 USER INSTRUCTIONS:
