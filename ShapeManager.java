@@ -1,8 +1,3 @@
-/**
- * Write a description of class ShapeManager here.
- * 
- * @author Rich Parsons
- */
 import java.awt.Color;
 import java.awt.Graphics2D;
 import java.util.LinkedList;
@@ -132,7 +127,7 @@ public class ShapeManager
     {
         JFileChooser fileChooser = new JFileChooser();
         fileChooser.setCurrentDirectory(new File("."));        
-        int response = fileChooser.showSaveDialog(null);    // replace null with reference to parent window
+        int response = fileChooser.showSaveDialog(null);
         if (response == JFileChooser.APPROVE_OPTION)
         {
             try
@@ -175,7 +170,7 @@ public class ShapeManager
     {
         JFileChooser fileChooser = new JFileChooser();
         fileChooser.setCurrentDirectory(new File("."));        
-        int response = fileChooser.showOpenDialog(null);    // replace null with reference to parent window
+        int response = fileChooser.showOpenDialog(null);
         if (response == JFileChooser.APPROVE_OPTION)
         {
             try
@@ -202,13 +197,6 @@ public class ShapeManager
             FileInputStream fileStream = new FileInputStream(openFile);
             ObjectInputStream os = new ObjectInputStream(fileStream);
             Object object1 = os.readObject();
-            /**
-             * All objects read in during a deserialization are of type Object. We need to convert
-             * the object into a LinkedList. The following @SuppressWarnings statement has been
-             * added to keep the compiler from generating an "unsafe cast" warning. Since doing 
-             * this might also suppress other important warnings, I will check begin by checking to
-             * make sure that at least our object is of type LinkedList.
-             */
             String className = object1.getClass().getName();
             if (className.matches("java.util.LinkedList"))
             {
