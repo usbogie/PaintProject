@@ -1,10 +1,3 @@
-/**
- * Class used to encapsulate shape identifier information.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
-
 import java.io.Serializable;
 
 public class ShapeID implements Serializable
