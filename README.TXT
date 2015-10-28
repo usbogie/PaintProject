@@ -1,12 +1,6 @@
-------------------------------------------------------------------------
-This is the project README file. Here, you should describe your project.
-Tell the reader (someone who does not know anything about this project)
-all he/she needs to know. The comments should usually include at least:
-------------------------------------------------------------------------
-
 PROJECT TITLE: PaintProject
 PURPOSE OF PROJECT: To be a simplified version of the Microsoft Paint application
 VERSION or DATE:  
 HOW TO START THIS PROJECT: Import all the java files into your environment of choice, and then run it as a java application
-AUTHORS: Henry Bogardus
-USER INSTRUCTIONS:
+AUTHOR: Henry Bogardus
+USER INSTRUCTIONS: This application acts like a simpler version of the MS Paint application. Complete with key bindings such as undo, redo, and quit, this application allows the user to draw within the window a variety of different shapes, including freehand. Each of these shapes can be customized with a different fill color, border color, and opacity.
